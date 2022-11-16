@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main{
+    background-image: url('images/bgpj.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 20px 0 80px 0;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.logo-menu{
+    width: 50%;
+}
+
+.logo-menu img{
+    height: 90px;
+}
+
+.items-menu{
+    margin-top: 20px;
+    width: 50%;
+    text-align: right;
+}
+
+.items-menu a{
+    font-weight: bold;
+    color: rgb(0, 69, 25);
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.items-menu a:hover{
+    border-bottom: 2px solid rgb(0, 69, 25);
+}
+
+.items-menu a.contact-btn{
+    color: white;
+    background-color: rgb(0, 69, 25);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.items-menu a.contact-btn:hover{
+    border: 0;
+}
+
+.mockup{
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-shadow: 
+               -1px -1px 0px rgb(0, 69, 25), 
+               -1px 1px 0px rgb(0, 69, 25),                    
+                1px -1px 0px rgb(0, 69, 25),                  
+                1px 0px 0px rgb(0, 69, 25);
+    padding-top: 100px;
+}
+
+.mockup h1{
+    font-size: 50px;
+}
+
+.mockup p{
+    font-size: 30px;
+}
+
+#text{
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+
+section.tecnologias{
+    padding: 100px 0;
+}
+
+section.tecnologias img{
+    width: 25%;
+}
+
+section.porque-nos{
+    background-image: url('images/bgdif.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+}
+
+section.porque-nos > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    text-shadow: 
+               -1px -1px 0px rgb(0, 69, 25), 
+               -1px 1px 0px rgb(0, 69, 25),                    
+                1px -1px 0px rgb(0, 69, 25),                  
+                1px 0px 0px rgb(0, 69, 25);
+}
+
+section.porque-nos > .center > p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    text-shadow: 
+               -1px -1px 0px rgb(255, 0, 0), 
+               -1px 1px 0px rgb(255, 0, 0),                    
+                1px -1px 0px rgb(255, 0, 0),                  
+                1px 0px 0px rgb(255, 0, 0);
+}
+
+.diferenciais{
+    display: flex;
+    min-height: 200px;
+    margin-top: 50px;
+}
+
+.box-diferenciais{
+    box-shadow: 0px 20px 40px #2426721c;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.box-diferenciais img{
+    width: 33%;  
+}
+
+.box-diferenciais h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.box-diferenciais p{
+    font-size: 13px;
+    color: rgb(0, 69, 25);
+    margin-bottom: 20px;
+}
+
+section.cta{
+    background-image: url('images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 20px 10px;
+    min-height: 200px;
+    text-align: center;
+    color: white;
+}
+
+section.cta h2{
+    font-size: 40px;
+}
+
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: bold;
+    background: rgb(185, 1, 1);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+
+section.beneficios{
+    padding: 50px 20px;
+}
+
+.lista-beneficios{
+    width: 50%;
+}
+
+.lista-beneficios h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.lista-beneficios img{
+    display: inline-block;
+    width: 50px;
+}
+
+.lista-beneficios p{
+    vertical-align: middle;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+.img-beneficios{
+    width: 50%;
+}
+
+.img-beneficios img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .diferenciais{
+        flex-wrap: wrap;
+    }
+
+    .box-diferenciais{
+        width: 100%;
+        background-color: white;
+        border-radius: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    section.tecnologias{
+        text-align: center;
+    }
+
+    section.tecnologias img{
+        margin-top: 15px;
+        margin-left: 25%;
+        width: 70%;
+        max-width: 200px;
+    }
+
+    .lista-beneficios{
+        width: 100%;
+    }
+
+    .img-beneficios{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
