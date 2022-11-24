@@ -107,45 +107,69 @@
             <div style="max-width: 1200px;" class="container-slider">
                 <div class="container-slider-single">
                     <a href="https://rpapadev.github.io/cafe-menu/" target="_blank">
-                        <img src="images/camper-cafe.jpg" alt="camper café">
+                        <img src="images/camper-cafe.jpg" alt="página Camper Café">
                         <h3>Camper Café</h3>
                         <p>Menu estilizado de uma cafeteria</p>
                     </a>
                 </div>
                 <div class="container-slider-single">
                     <a href="https://rpapadev.github.io/page-faq/" target="_blank">
-                        <img src="images/faq.jpg" alt="camper café">
+                        <img src="images/faq.jpg" alt="página FAQ">
                         <h3>FAQ</h3>
                         <p>Exemplo de página de perguntas frequentes</p>
                     </a>
                 </div>
                 <div class="container-slider-single">
-                    <h3>Frases Motivacionais</h3>
-                    <p>Clique no botão para gerar uma frase motivacional aleatória</p>
+                    <a href="https://rpapadev.github.io/frases-motivacionais/" target="_blank">
+                        <img src="images/frases.jpg" alt="página Frases Motivacionais">
+                        <h3>Frases Motivacionais</h3>
+                        <p>Clique no botão para gerar uma frase motivacional aleatória</p>
+                    </a>
                 </div>
                 <div class="container-slider-single">
-                    <h3>Pokedex</h3>
-                    <p>Pokedex de Pokemons - Projeto para estudo de API</p>
+                    <a href="https://rpapadev.github.io/pokedex/" target="_blank">
+                        <img src="images/pokedex.jpg" alt="página Pokedex">
+                        <h3>Pokedex</h3>
+                        <p>Pokedex de Pokemons - Projeto para estudo de API</p>
+                    </a>
                 </div>
                 <div class="container-slider-single">
-                    <h3>Jokenpo</h3>
-                    <p>Jogue contra a IA e tente sair vencedor!</p>
+                    <a href="https://rpapadev.github.io/jokenpo/" target="_blank">
+                        <img src="images/jokenpo.jpg" alt="página Jokenpo">
+                        <h3>Jokenpo</h3>
+                        <p>Jogue contra a IA e tente sair vencedor!</p>
+                    </a>
                 </div>
                 <div class="container-slider-single">
-                    <h3>Página de Login</h3>
-                    <p>Exemplo de página para login utilizando vários métodos diferentes</p>
+                    <a href="https://rpapadev.github.io/pagina-login/" target="_blank">
+                        <img src="images/login.jpg" alt="página Login">
+                        <h3>Página de Login</h3>
+                        <p>Exemplo de página para login utilizando vários métodos diferentes</p>
+                    </a>
                 </div>
                 <div class="container-slider-single">
-                    <h3>Buscador de CEP</h3>
-                    <p>Digite o CEP para descobrir o endereço desejado</p>
+                    <a href="https://rpapadev.github.io/bescador-cep/" target="_blank">
+                        <img src="images/cep.jpg" alt="página Buscador CEP">
+                        <h3>Buscador de CEP</h3>
+                        <p>Digite o CEP para descobrir o endereço desejado</p>
+                    </a>
                 </div>
             </div>
 
         </div>
     </section>
 
-    
-
+    <footer>
+        <div style="max-width: 1280px;" class="center">
+            <div class="text-footer">
+                <p>Todos os direitos reservados à Open Road</p>
+            </div>
+            <div class="items-menu footer-menu">
+                <a href="#">Início</a>
+                <a class="contact-btn" href="#">Contato</a>
+            </div>
+        </div>
+    </footer>
     
     <!--Scripts-->
     <script src="myscript.js"></script>
@@ -163,7 +187,14 @@
             slidesToScroll: 3,
             autoplay: true,
             autoplaySpeed: 3000,
-            pauseOnHover: true
+            pauseOnHover: true,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
         });
     </script>
 </body>

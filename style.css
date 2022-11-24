@@ -79,7 +79,6 @@ section.main{
 }
 
 .mockup p{
-    color: rgb(0, 69, 25);
     font-size: 30px;
 }
 
@@ -235,12 +234,13 @@ section.beneficios{
 }
 
 section.projetos{
-    background-color: #c7f7db;
+    background-color: #b0f8ce;
     padding: 40px 0;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    text-align: center;
 }
 
 section.projetos h1{
@@ -255,22 +255,30 @@ section.projetos h1{
 .container-slider-single{
     float: left;
     background-color: white;
-    padding: 10px;
+    padding: 40px;
     align-items: center;
     text-align: center;
     border-radius: 10px;
-    min-height: 400px;
+    min-height: 350px;
+    margin-bottom: 40px;
 }
 
 .container-slider-single img{
-   max-width: 300px;
-   max-height: 400px;
+   max-width: 200px;
+   max-height: 140px;
 }
 
 .container-slider-single a{
     text-decoration: none;
     color: black;
 }
+
+.container-slider h3,
+.container-slider p{
+    margin-top: 20px;
+    
+}
+
 
 .slick-slide{
     margin-left: 27px;
@@ -286,7 +294,6 @@ section.projetos h1{
 .slick-dotted ul important{
     display: block;
 	list-style-type: none;
-	text-align: center;
 	position: relative;
 	top: 30px;
 }
@@ -316,7 +323,29 @@ li.slick-active button{
 	color: rgb(0, 69, 25);
 }
 
-.slick-slide:focus { outline: none; }
+.slick-slide:focus { 
+    outline: none; 
+}
+
+footer{
+    background-color: rgb(1, 146, 54);
+    color: white;
+    margin-top: 20px;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.text-footer{
+    margin-top: 10px;
+    width: 40%;
+    text-align: left;
+}
+
+.footer-menu{
+    margin-top: -1px;
+    width: 60%;
+    text-align: right;
+}
 
 @media screen and (max-width: 768px) {
     .diferenciais{
@@ -350,4 +379,7 @@ li.slick-active button{
         width: 100%;
         margin-top: 20px;
     }
+
+    .footer-menu{
+        margin-top: 15px;
 }
