@@ -70,11 +70,7 @@ section.main{
     width: 100%;
     color: white;
     text-align: center;
-    text-shadow: 
-               -1px -1px 0px rgb(0, 69, 25), 
-               -1px 1px 0px rgb(0, 69, 25),                    
-                1px -1px 0px rgb(0, 69, 25),                  
-                1px 0px 0px rgb(0, 69, 25);
+    text-shadow: rgb(0, 69, 25) 5px 0 10px;
     padding-top: 100px;
 }
 
@@ -83,6 +79,7 @@ section.main{
 }
 
 .mockup p{
+    color: rgb(0, 69, 25);
     font-size: 30px;
 }
 
@@ -97,7 +94,7 @@ section.tecnologias{
 }
 
 section.tecnologias img{
-    width: 25%;
+    width: 20%;
 }
 
 section.porque-nos{
@@ -236,6 +233,90 @@ section.beneficios{
     max-width: 100%;
     border-radius: 10px;
 }
+
+section.projetos{
+    background-color: #c7f7db;
+    padding: 40px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+section.projetos h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider{
+    overflow: hidden;
+}
+
+.container-slider-single{
+    float: left;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    min-height: 380px;
+}
+
+.container-slider-single img{
+   max-width: 300px;
+   max-height: 400px;
+}
+
+.container-slider-single a{
+    text-decoration: none;
+    color: black;
+}
+
+.slick-slide{
+    margin-left: 27px;
+}
+
+/*the parent*/
+.slick-list{
+    margin-left: -27px;
+}
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul important{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: grey;
+	border-width: 0;
+	background: grey;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: rgb(0, 69, 25);
+	color: rgb(0, 69, 25);
+}
+
+.slick-slide:focus { outline: none; }
 
 @media screen and (max-width: 768px) {
     .diferenciais{

@@ -40,10 +40,11 @@
 
     <section class="tecnologias">
         <div class="center">
-            <img src="images/html.png" alt="">
-            <img src="images/css.png" alt="">
-            <img src="images/js.png" alt="">
-            <img src="images/firebase.png" alt="">
+            <img src="images/html.png" alt="html logo">
+            <img src="images/css.png" alt="css logo">
+            <img src="images/js.png" alt="js logo">
+            <img src="images/firebase.png" alt="firebase logo">
+            <img src="images/node.png" alt="firebase logo">
         </div>
     </section>
 
@@ -53,7 +54,7 @@
             <p>Uma experiência incrível para seus clientes, resultados espetaculares para sua empresa</p>
             <div class="diferenciais">
                 <div class="box-diferenciais">
-                    <img src="images/icone1.png" alt="">
+                    <img src="images/icone1.png" alt="ícone prancheta">
                     <h3>Planejamento impecável</h3>
                     <p>Conte com a Open Road como sua parceira no planejamento de seus projetos, conteúdos e estratégias.
                         Nosso profissionais altamente qualificados estão preparados para qualquer desafio.
@@ -61,7 +62,7 @@
                 </div>
 
                 <div class="box-diferenciais">
-                    <img src="images/icone2.png" alt="">
+                    <img src="images/icone2.png" alt="ícone gráfico">
                     <h3>Pague pelos resultados</h3>
                     <p>Aqui você paga de acordo com o retorno que ganha em cada campanha. Não deixe a oprotunidade de ter melhores resultados para amanhã.
                         Entre e contato e vamos conversar sobre sua necessidade.
@@ -69,7 +70,7 @@
                 </div>
 
                 <div class="box-diferenciais">
-                    <img src="images/icone3.png" style="height: 90px; width: 150px;" alt="">
+                    <img src="images/icone3.png" style="height: 90px; width: 150px;" alt="ícone suporte">
                     <h3>Suporte e acompanhamento</h3>
                     <p>Mesmo após o fim do projeto, nós da Open Road acompanharemos os desdobramentos e resultados, oferecendo todo o suporte possível
                         para você e sua equipe.
@@ -89,30 +90,82 @@
         <div class="center">
             <div class="lista-beneficios">
                 <h2>Beneficios para você</h2>
-                <p><img src="images/check.png" alt=""><span>Garantia de resultados, pague de acordo com o desempenho do seu projeto</span></p>
-                <p><img src="images/check.png" alt=""><span>Equipe qualificada. Nossos profissionais possuem vasta experiência.</span></p>
-                <p><img src="images/check.png" alt=""><span>Saia do básico e se destaque em meio à multidão com criatividade.</span></p>
+                <p><img src="images/check.png" alt="check"><span>Garantia de resultados, pague de acordo com o desempenho do seu projeto</span></p>
+                <p><img src="images/check.png" alt="check"><span>Equipe qualificada. Nossos profissionais possuem vasta experiência.</span></p>
+                <p><img src="images/check.png" alt="check"><span>Saia do básico e se destaque em meio à multidão com criatividade.</span></p>
             </div>
             <div class="img-beneficios">
-                <img src="images/codelaptop.jpg" alt="">
+                <img src="images/codelaptop.jpg" alt="notebook de programador">
             </div>
         </div>
     </section>
 
-    <section class="depoimentos">
+    <section class="projetos">
+        <h1>Projetos</h1>
         <div style="display: block;" class="center">
+            <br/>
+            <div style="max-width: 1200px;" class="container-slider">
+                <div class="container-slider-single">
+                    <a href="https://rpapadev.github.io/cafe-menu/" target="_blank">
+                        <img src="images/camper-cafe.jpg" alt="camper café">
+                        <h3>Camper Café</h3>
+                        <p>Menu estilizado de uma cafeteria</p>
+                    </a>
+                </div>
+                <div class="container-slider-single">
+                    <a href="https://rpapadev.github.io/page-faq/" target="_blank">
+                        <img src="images/faq.jpg" alt="camper café">
+                        <h3>FAQ</h3>
+                        <p>Exemplo de página de perguntas frequentes</p>
+                    </a>
+                </div>
+                <div class="container-slider-single">
+                    <h3>Frases Motivacionais</h3>
+                    <p>Clique no botão para gerar uma frase motivacional aleatória</p>
+                </div>
+                <div class="container-slider-single">
+                    <h3>Pokedex</h3>
+                    <p>Pokedex de Pokemons - Projeto para estudo de API</p>
+                </div>
+                <div class="container-slider-single">
+                    <h3>Jokenpo</h3>
+                    <p>Jogue contra a IA e tente sair vencedor!</p>
+                </div>
+                <div class="container-slider-single">
+                    <h3>Página de Login</h3>
+                    <p>Exemplo de página para login utilizando vários métodos diferentes</p>
+                </div>
+                <div class="container-slider-single">
+                    <h3>Buscador de CEP</h3>
+                    <p>Digite o CEP para descobrir o endereço desejado</p>
+                </div>
+            </div>
 
         </div>
     </section>
 
     
+
+    
     <!--Scripts-->
     <script src="myscript.js"></script>
+    <script src="jquery.js"></script>
+    <script src="slick.min.js"></script>
     <script>
         typing();
     </script>
-
-    <!--teste-->
+    <script>
+        $('.container-slider').slick({
+            dots: true,
+            arrows: false,
+            speed: 1000,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            pauseOnHover: true
+        });
+    </script>
 </body>
 
 </html>
