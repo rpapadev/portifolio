@@ -14,19 +14,29 @@
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
+    <!--Scripts-->
+    <script src="https://kit.fontawesome.com/1ddc04cb5b.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <section class="main">
+    <section class="main" id="main">
         <div class="center">
             <div class="menu">
                 <div class="logo-menu">
                    <a href="/"><img src="images/Openroad-nome.png" alt="Logo Open Road"></a> 
                 </div>
                 <div class="items-menu">
-                    <a href="#">Início</a>
-                    <a href="#">Por que nós?</a>
-                    <a href="#">Depoimentos</a>
+                    <a href="#porque-nos">Por que nós?</a>
+                    <a href="#projetos">Projetos</a>
                     <a class="contact-btn" href="https://contate.me/open-road" target="_blank">Entre em Contato!</a>
+                </div>
+                <div class="items-menu-mobile">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="menu-mobile">
+                        <a href="#porque-nos">Por que nós?</a>
+                        <a href="#projetos">Projetos</a>
+                        <a class="contact-btn" href="https://contate.me/open-road" target="_blank">Entre em Contato!</a>
+                    </div>
                 </div>
             </div>
 
@@ -45,10 +55,11 @@
             <img src="images/js.png" alt="js logo">
             <img src="images/firebase.png" alt="firebase logo">
             <img src="images/node.png" alt="firebase logo">
+            <img src="images/reactjs.png" alt="react.js logo">
         </div>
     </section>
 
-    <section class="porque-nos">
+    <section class="porque-nos" id="porque-nos">
         <div class="center">
             <h2>Porque nós?</h2>
             <p>Uma experiência incrível para seus clientes, resultados espetaculares para sua empresa</p>
@@ -100,7 +111,7 @@
         </div>
     </section>
 
-    <section class="projetos">
+    <section class="projetos" id="projetos">
         <h1>Projetos</h1>
         <div style="display: block;" class="center">
             <br/>
@@ -165,7 +176,7 @@
                 <p>Todos os direitos reservados à Open Road</p>
             </div>
             <div class="items-menu footer-menu">
-                <a href="#">Início</a>
+                <a href="#main">Início</a>
                 <a class="contact-btn" href="https://contate.me/open-road" target="_blank">Contato</a>
             </div>
         </div>
@@ -177,8 +188,9 @@
     <script src="slick.min.js"></script>
     <script>
         typing();
-    </script>
-    <script>
+
+        showhide();
+
         $('.container-slider').slick({
             dots: true,
             arrows: false,
@@ -187,7 +199,7 @@
             slidesToScroll: 3,
             autoplay: true,
             autoplaySpeed: 3000,
-            pauseOnHover: true,
+            pauseOnHover: false,
             responsive: [{
                 breakpoint: 768,
                 settings: {
