@@ -1,14 +1,13 @@
-var loop = true;
-var i = 0, text;
-text = "Praticidade, sem dor de cabeça!"
-
 function typing(){
-        if (i < text.length) {
-            document.getElementById("text").innerHTML += text.charAt(i);
-            i++;
-            setTimeout(typing,50);
-        }
+    var typed = new Typed(".auto-type", {
+        strings: ["Fácil", "Rápido", "Prático", "Sem dor de cabeça!"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true
+    })
 }
+
+
 
 function showhide(){
     var menuBtn = document.querySelector('.items-menu-mobile i');
