@@ -1,6 +1,6 @@
 function typing(){
     var typed = new Typed(".auto-type", {
-        strings: ["Fácil", "Rápido", "Prático", "Sem dor de cabeça!"],
+        strings: ["Fácil", "Rápido", "Prático"],
         typeSpeed: 50,
         backSpeed: 50,
         loop: true
