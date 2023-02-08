@@ -84,8 +84,8 @@ section.main{
     font-size: 30px;
 }
 
-.text{
-    font-size: 30px;
+#message{
+    font-size: 40px;
     margin-top: 70px;
 }
 

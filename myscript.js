@@ -1,11 +1,36 @@
-function typing(){
-    var typed = new Typed(".auto-type", {
-        strings: ["Fácil", "Rápido", "Prático"],
-        typeSpeed: 50,
-        backSpeed: 50,
-        loop: true
-    })
-}
+function typeWriter() {
+    let i = 0;
+    let j = 0;
+    const messages = ["Fácil", "Rápido", "Prático"];
+    const speed = 100; // Velocidade em milissegundos
+  
+    function type() {
+      if (i < messages[j].length) {
+        document.getElementById("message").innerHTML += messages[j].charAt(i);
+        i++;
+        setTimeout(type, speed);
+      } else {
+        setTimeout(erase, speed);
+      }
+    }
+  
+    function erase() {
+      if (i >= 0) {
+        let newText = messages[j].substring(0, i);
+        document.getElementById("message").innerHTML = newText;
+        i--;
+        setTimeout(erase, speed);
+      } else {
+        j++;
+        if (j >= messages.length) {
+          j = 0;
+        }
+        setTimeout(type, 500); // Tempo de espera de 2 segundos
+      }
+    }
+  
+    type();
+  }
 
 
 
