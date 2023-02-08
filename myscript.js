@@ -30,7 +30,7 @@ function typeWriter() {
     }
   
     type();
-  }
+}
 
 
 
