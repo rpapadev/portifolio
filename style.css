@@ -98,6 +98,15 @@ section.tecnologias img{
     width: calc(100%/6);
 }
 
+.animation {
+    animation: moverBeneficios 1s ease-in-out infinite alternate;
+}
+
+@keyframes moverBeneficios {
+    from { transform: translateX(-20px); }
+    to { transform: translateX(20px); }
+  }
+
 section.porque-nos{
     background-image: url('images/bgdif.png');
     background-position: center;
@@ -228,6 +237,7 @@ section.beneficios{
 
 .img-beneficios{
     width: 50%;
+    animation-fill-mode: forwards;
 }
 
 .img-beneficios img{
