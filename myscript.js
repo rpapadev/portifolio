@@ -47,3 +47,15 @@ function showhide(){
         }
     })
 }
+
+function validateForm() {
+  const emailInput = document.querySelector('input[name="email"]');
+  const messageInput = document.querySelector('textarea[name="message"]');
+
+  if (emailInput.value.trim() === "" || messageInput.value.trim() === "") {
+      alert("Por favor, preencha todos os campos antes de enviar o e-mail.");
+      return false; // Impede o envio do formulário
+  }
+
+  return true;
+}
