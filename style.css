@@ -279,6 +279,54 @@ section.projetos h1{
     margin-bottom: 20px;
 }
 
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: rgb(0, 69, 25);;
+}
+
+.email label {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.email input {
+    padding: 8px;
+    width: 400px;
+}
+
+.email textarea {
+    padding: 8px;
+    height: 200px;
+}
+
+.email input,
+.email textarea {
+    font-size: 15px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.email button {
+    padding: 10px 30px;
+    background-color: rgb(0, 69, 25);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 38%;
+}
+
 .accordion {
     display: flex;
     flex-direction: column;
@@ -515,5 +563,20 @@ footer{
 
     section.main .items-menu{
         display: none;
+    }
+
+    .email {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .email h2{
+        text-align: center;
+    }
+
+    .email input {
+        padding: 8px;
+        width: 350px;
     }
 }   
