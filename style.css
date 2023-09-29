@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
 
-.center{
+.center {
     display: flex;
     max-width: 1100px;
     padding: 0 2%;
@@ -13,7 +13,7 @@
     flex-wrap: wrap;
 }
 
-section.main{
+section.main {
     background-image: url('images/bgpj.png');
     background-position: center;
     background-size: cover;
@@ -23,26 +23,26 @@ section.main{
     padding: 20px 0 80px 0;
 }
 
-.menu{
+.menu {
     display: flex;
     width: 100%;
 }
 
-.logo-menu{
+.logo-menu {
     width: 50%;
 }
 
-.logo-menu img{
+.logo-menu img {
     height: 90px;
 }
 
-.items-menu{
+.items-menu {
     margin-top: 20px;
     width: 50%;
     text-align: right;
 }
 
-.items-menu a{
+.items-menu a {
     font-weight: bold;
     color: rgb(0, 69, 25);
     text-decoration: none;
@@ -51,23 +51,23 @@ section.main{
 }
 
 .items-menu a:hover,
-.items-menu-mobile a:hover{
+.items-menu-mobile a:hover {
     border-bottom: 2px solid rgb(0, 69, 25);
 }
 
 .items-menu a.contact-btn,
-.items-menu-mobile a.contact-btn{
+.items-menu-mobile a.contact-btn {
     color: white;
     background-color: rgb(0, 69, 25);
     padding: 10px 10px;
     border-radius: 10px;
 }
 
-.items-menu a.contact-btn:hover{
+.items-menu a.contact-btn:hover {
     border: 0;
 }
 
-.mockup{
+.mockup {
     display: block;
     width: 100%;
     color: white;
@@ -77,29 +77,29 @@ section.main{
     min-height: 700px;
 }
 
-.mockup h1{
+.mockup h1 {
     font-size: 40px;
 }
 
-.mockup p{
+.mockup p {
     font-size: 30px;
 }
 
-#message{
+#message {
     font-size: 40px;
     margin-top: 70px;
 }
 
 
-section.tecnologias{
+section.tecnologias {
     padding: 100px 0;
 }
 
-section.tecnologias img{
-    width: calc(100%/6);
+section.tecnologias img {
+    width: calc(100%/5);
 }
 
-section.porque-nos{
+section.porque-nos {
     background-image: url('images/bgdif.png');
     background-position: center;
     background-size: cover;
@@ -109,37 +109,37 @@ section.porque-nos{
     padding: 40px 0;
 }
 
-section.porque-nos > .center > h2{
+section.porque-nos>.center>h2 {
     font-size: 64px;
     text-align: center;
     color: white;
     width: 100%;
-    text-shadow: 
-               -1px -1px 0px rgb(0, 69, 25), 
-               -1px 1px 0px rgb(0, 69, 25),                    
-                1px -1px 0px rgb(0, 69, 25),                  
-                1px 0px 0px rgb(0, 69, 25);
+    text-shadow:
+        -1px -1px 0px rgb(0, 69, 25),
+        -1px 1px 0px rgb(0, 69, 25),
+        1px -1px 0px rgb(0, 69, 25),
+        1px 0px 0px rgb(0, 69, 25);
 }
 
-section.porque-nos > .center > p{
+section.porque-nos>.center>p {
     font-size: 25px;
     text-align: center;
     color: white;
     width: 100%;
-    text-shadow: 
-               -1px -1px 0px rgb(0, 69, 25), 
-               -1px 1px 0px rgb(0, 69, 25),                    
-                1px -1px 0px rgb(0, 69, 25),                  
-                1px 0px 0px rgb(0, 69, 25);
+    text-shadow:
+        -1px -1px 0px rgb(0, 69, 25),
+        -1px 1px 0px rgb(0, 69, 25),
+        1px -1px 0px rgb(0, 69, 25),
+        1px 0px 0px rgb(0, 69, 25);
 }
 
-.diferenciais{
+.diferenciais {
     display: flex;
     min-height: 200px;
     margin-top: 50px;
 }
 
-.box-diferenciais{
+.box-diferenciais {
     box-shadow: 0px 20px 40px #2426721c;
     width: 31%;
     margin-right: 2%;
@@ -149,22 +149,22 @@ section.porque-nos > .center > p{
     text-align: center;
 }
 
-.box-diferenciais img{
-    width: 33%;  
+.box-diferenciais img {
+    width: 33%;
 }
 
-.box-diferenciais h3{
+.box-diferenciais h3 {
     font-size: 20px;
     margin: 20px 0;
 }
 
-.box-diferenciais p{
+.box-diferenciais p {
     font-size: 13px;
     color: rgb(0, 69, 25);
     margin-bottom: 20px;
 }
 
-section.cta{
+section.cta {
     background-image: url('images/banner.png');
     background-position: center;
     background-size: cover;
@@ -176,17 +176,17 @@ section.cta{
     color: white;
 }
 
-section.cta h2{
+section.cta h2 {
     font-size: 40px;
 }
 
 section.cta h2,
-section.cta h4{
+section.cta h4 {
     font-weight: normal;
     margin: 10px 0;
 }
 
-section.cta a{
+section.cta a {
     display: inline-block;
     padding: 10px 10px;
     font-weight: bold;
@@ -195,44 +195,44 @@ section.cta a{
     color: white;
     border-radius: 10px;
     font-size: 18px;
-    
+
 }
 
-section.beneficios{
+section.beneficios {
     padding: 50px 20px;
 }
 
-.lista-beneficios{
+.lista-beneficios {
     width: 50%;
 }
 
-.lista-beneficios h2{
+.lista-beneficios h2 {
     text-align: center;
     font-size: 30px;
 }
 
-.lista-beneficios img{
+.lista-beneficios img {
     display: inline-block;
     width: 50px;
 }
 
-.lista-beneficios p{
+.lista-beneficios p {
     vertical-align: middle;
     font-size: 20px;
     margin-top: 25px;
 }
 
-.lista-beneficios span{
+.lista-beneficios span {
     display: inline-block;
     width: calc(100% - 70px);
 }
 
-.img-beneficios{
+.img-beneficios {
     width: 50%;
     animation-fill-mode: forwards;
 }
 
-.img-beneficios img{
+.img-beneficios img {
     max-width: 100%;
     border-radius: 10px;
 }
@@ -248,13 +248,14 @@ section.beneficios{
         opacity: 0;
         transform: translateX(100%);
     }
+
     100% {
         opacity: 1;
         transform: translateX(0%);
     }
 }
 
-section.projetos{
+section.projetos {
     background-color: #b0f8ce;
     padding: 40px 0;
     width: 80%;
@@ -264,7 +265,7 @@ section.projetos{
     text-align: center;
 }
 
-section.projetos h1{
+section.projetos h1 {
     text-align: center;
     font-size: 50px;
 }
@@ -274,7 +275,7 @@ section.projetos h1{
     margin: 40px auto;
 }
 
-.faq h2{
+.faq h2 {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -345,7 +346,7 @@ section.projetos h1{
     cursor: pointer;
 }
 
-.accordion-header i{
+.accordion-header i {
     margin-right: 10px;
     color: rgb(0, 69, 25);
     transition: transform 0.3s ease-in-out;
@@ -372,17 +373,18 @@ section.projetos h1{
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
 
 
-.container-slider{
+.container-slider {
     overflow: hidden;
 }
 
-.container-slider-single{
+.container-slider-single {
     float: left;
     background-color: white;
     padding: 40px;
@@ -393,71 +395,71 @@ section.projetos h1{
     margin-bottom: 40px;
 }
 
-.container-slider-single img{
-   max-width: 200px;
-   max-height: 140px;
+.container-slider-single img {
+    max-width: 200px;
+    max-height: 140px;
 }
 
-.container-slider-single a{
+.container-slider-single a {
     text-decoration: none;
     color: black;
 }
 
 .container-slider h3,
-.container-slider p{
+.container-slider p {
     margin-top: 20px;
-    
+
 }
 
 
-.slick-slide{
+.slick-slide {
     margin-left: 27px;
 }
 
 /*the parent*/
-.slick-list{
+.slick-list {
     margin-left: -27px;
 }
 
 /****SLICK SLIDER****/
 
-.slick-dotted ul important{
+.slick-dotted ul important {
     display: block;
-	list-style-type: none;
-	position: relative;
-	top: 30px;
+    list-style-type: none;
+    position: relative;
+    top: 30px;
 }
 
-.slick-dotted li{
-	display: inline-block;
-	margin: 0 7px;
+.slick-dotted li {
+    display: inline-block;
+    margin: 0 7px;
 }
 
-.slick-dotted button:focus{
-	outline: 0;
+.slick-dotted button:focus {
+    outline: 0;
 }
 
-.slick-dotted li button{
-	width: 16px;
-	height: 16px;
-	border-radius: 8px;
-	color: grey;
-	border-width: 0;
-	background: grey;
-	opacity: 1;
-	cursor: pointer;
+.slick-dotted li button {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: grey;
+    border-width: 0;
+    background: grey;
+    opacity: 1;
+    cursor: pointer;
 }
 
-li.slick-active button{
-	background: rgb(0, 69, 25);
-	color: rgb(0, 69, 25);
+li.slick-active button {
+    background: rgb(0, 69, 25);
+    color: rgb(0, 69, 25);
 }
 
-.slick-slide:focus { 
-    outline: none; 
+.slick-slide:focus {
+    outline: none;
 }
 
-footer{
+footer {
     background-color: rgb(1, 146, 54);
     color: white;
     margin-top: 20px;
@@ -465,37 +467,37 @@ footer{
     align-items: center;
 }
 
-.text-footer{
+.text-footer {
     margin-top: 10px;
     width: 40%;
     text-align: left;
 }
 
-.footer-menu{
+.footer-menu {
     margin-top: -1px;
     width: 60%;
     text-align: right;
 }
 
-.items-menu-mobile{
+.items-menu-mobile {
     display: none;
     width: 50%;
     text-align: right;
     margin-top: 25px;
 }
 
-.items-menu-mobile i{
-    color:rgb(0, 69, 25);
+.items-menu-mobile i {
+    color: rgb(0, 69, 25);
     font-size: 23px;
     cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-    .diferenciais{
+    .diferenciais {
         flex-wrap: wrap;
     }
 
-    .box-diferenciais{
+    .box-diferenciais {
         width: 100%;
         background-color: white;
         border-radius: 30px;
@@ -503,36 +505,36 @@ footer{
         margin-top: 10px;
     }
 
-    section.tecnologias{
+    section.tecnologias {
         text-align: center;
     }
 
-    section.tecnologias img{
+    section.tecnologias img {
         margin-top: 15px;
         margin-left: 25%;
         width: 70%;
         max-width: 200px;
     }
 
-    .lista-beneficios{
+    .lista-beneficios {
         width: 100%;
     }
 
-    .img-beneficios{
+    .img-beneficios {
         width: 100%;
         margin-top: 20px;
     }
 
-    .footer-menu{
+    .footer-menu {
         margin-top: 15px;
     }
 
-    .items-menu-mobile{
+    .items-menu-mobile {
         display: block;
         margin-right: 10px;
     }
 
-    .menu-mobile{
+    .menu-mobile {
         opacity: 0;
         transition: 1s;
         position: absolute;
@@ -544,7 +546,7 @@ footer{
         text-align: center;
     }
 
-    .menu-mobile a{
+    .menu-mobile a {
         text-align: center;
         display: block;
         margin: 10px 0;
@@ -553,15 +555,15 @@ footer{
         font-weight: bold;
     }
 
-    .show{
+    .show {
         opacity: 1;
     }
 
-    .hide{
+    .hide {
         opacity: 0;
     }
 
-    section.main .items-menu{
+    section.main .items-menu {
         display: none;
     }
 
@@ -571,7 +573,7 @@ footer{
         margin-right: auto;
     }
 
-    .email h2{
+    .email h2 {
         text-align: center;
     }
 
@@ -579,4 +581,4 @@ footer{
         padding: 8px;
         width: 350px;
     }
-}   
+}
